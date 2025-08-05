@@ -26,6 +26,7 @@ streamlit run app.py
 
 ## Data
 All CSV files are inside `data/f1Data/`. They come from the Kaggle Formula 1 World Championship dataset.
+it can be dowloaded from Kaggle here: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
 
 ## Features Used for Prediction
 - Grid position
@@ -45,7 +46,6 @@ This project was made for the final AI course exam at Cphbusiness and is split i
 
 ## Credits
 - Dataset: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
-- Student: Vivek Singh Nagra
 
 ## Part 1: Machine Learning Notebook
 
@@ -59,5 +59,6 @@ The file `part1_notebook.ipynb` contains the full pipeline of the supervised and
 - Creating performance profiles such as *Comeback Driver*, *Consistent Midfielder*, etc.
 
 The notebook is fully commented and includes code outputs and explanations of each step.
+
 
 
