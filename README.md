@@ -24,6 +24,15 @@ cd part2_app
 streamlit run app.py
 ```
 
+# Setup Instructions for part 2.
+cd part2-rag-llama
+python3.11 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python create_vectorstore.py
+python query_cli.py  # or whatever name your CLI app has
+
+
 ## Data
 All CSV files are inside `data/f1Data/`. They come from the Kaggle Formula 1 World Championship dataset.
 it can be dowloaded from Kaggle here: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
@@ -59,6 +68,7 @@ The file `part1_notebook.ipynb` contains the full pipeline of the supervised and
 - Creating performance profiles such as *Comeback Driver*, *Consistent Midfielder*, etc.
 
 The notebook is fully commented and includes code outputs and explanations of each step.
+
 
 
 
